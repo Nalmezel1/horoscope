@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Гороскоп</string>
+    <string name="button">Предсказать</string>
+    <string name="mainTextView">Введите дату рождения</string>
+    <string name="dateYear">год</string>
+    <string name="dateMonth">месяц</string>
+    <string name="dateDay">день</string>
+
+    <string name="badHp">Присмотритесь к своему здоровью</string>
+    <string name="goodHp">Сегодня можете позволить себе лишний бокал</string>
+    <string name="badLuck">Удача не на высоте. Постарайтесь не рисковать</string>
+    <string name="goodLuck">Сегодня вам сопутствует удача</string>
+    <string name="badMoney">Не стоит сегодня тратиться</string>
+    <string name="goodMoney">Можете что-то себе прикупить</string>
+    <string name="badWork">Ожидайте неприятностей на работе</string>
+    <string name="goodWork">На работе произойдёт что-то хорошее</string>
+    <string name="badLove">Время и терпение. Вас ждут сюрпризы в будущем</string>
+    <string name="goodLove">Вас ждут лёгкие романтические отношения</string>
+
+
+    <string name="hpTextView">Здоровье</string>
+    <string name="luckTextView">Удача</string>
+    <string name="moneyTextView">Деньги</string>
+    <string name="workTextView">Работа</string>
+    <string name="loveTextView">Любовь</string>
+
+    <string-array name="planets_array">
+        <item>@string/badHp</item>
+        <item>@string/goodHp</item>
+        <item>@string/badLuck</item>
+        <item>@string/goodLuck</item>
+        <item>@string/badMoney</item>
+        <item>@string/goodMoney</item>
+        <item>@string/badWork</item>
+        <item>@string/goodWork</item>
+        <item>@string/badLove</item>
+        <item>@string/goodLove</item>
+    </string-array>
+
+</resources>
