@@ -14,10 +14,11 @@
 
 
     <TableLayout
+        android:id="@+id/maintableLayout"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
-        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="22dp"
@@ -28,11 +29,30 @@
             android:layout_height="match_parent" >
 
             <Button
+                android:text="Близнецы"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button12"
+                android:onClick="newScreen"/>
+
+            <Button
+                android:text="Телец"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button10"
+                android:onClick="newScreen"/>
+
+            <Button
                 android:text="Рыбы"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button6"
                 android:onClick="newScreen"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
 
             <Button
                 android:text="Рак"
@@ -61,13 +81,6 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:text="Телец"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button10"
-                android:onClick="newScreen"/>
-
-            <Button
                 android:text="Овен"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -94,13 +107,6 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:text="Близнецы"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button12"
-                android:onClick="newScreen"/>
-
-            <Button
                 android:text="Дева"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,20 +130,34 @@
 
     </TableLayout>
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginBottom="72dp"
+    <Button
+        android:text="Предсказать"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/predict"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
 
-        <TableRow
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:layout_above="@+id/predict"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="60sp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:textColor="#fff"
@@ -146,7 +166,7 @@
                 android:id="@+id/dayTextEdit" />
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="60sp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:textColor="#fff"
@@ -155,7 +175,7 @@
                 android:id="@+id/monthTextEdit" />
 
             <EditText
-                android:layout_width="100dp"
+                android:layout_width="100sp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:textColor="#fff"
@@ -163,10 +183,11 @@
                 android:ems="10"
                 android:id="@+id/yearTextEdit" />
 
-        </TableRow>
+        </LinearLayout>
 
-        <TableRow
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent" >
 
             <TextView
@@ -181,7 +202,7 @@
                 android:text="Месяц"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="60dp"
                 android:textColor="#fff"
                 android:id="@+id/textView2" />
 
@@ -189,22 +210,13 @@
                 android:text="Год"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="60dp"
                 android:textColor="#fff"
                 android:id="@+id/textView" />
 
 
-        </TableRow>
+        </LinearLayout>
 
-    </TableLayout>
-
-    <Button
-        android:text="Предсказать"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/predict"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp" />
+    </LinearLayout>
 
 </RelativeLayout>

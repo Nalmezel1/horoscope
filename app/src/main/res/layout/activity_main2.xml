@@ -88,7 +88,7 @@ tools:context="com.example.horoscope.MainActivity">
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/imageViev1"
+                android:id="@+id/hpIV"
                 android:layout_width="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/pk1"
@@ -109,7 +109,7 @@ tools:context="com.example.horoscope.MainActivity">
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/imageViev2"
+                android:id="@+id/luckIV"
                 android:layout_width="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/pk1"
@@ -129,7 +129,7 @@ tools:context="com.example.horoscope.MainActivity">
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <ImageView
-                android:id="@+id/imageViev3"
+                android:id="@+id/moneyIV"
                 android:layout_width="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/pk1"
@@ -148,7 +148,7 @@ tools:context="com.example.horoscope.MainActivity">
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <ImageView
-                android:id="@+id/imageViev4"
+                android:id="@+id/workIV"
                 android:layout_width="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/pk1"
@@ -167,7 +167,7 @@ tools:context="com.example.horoscope.MainActivity">
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <ImageView
-                android:id="@+id/imageViev5"
+                android:id="@+id/loveIV"
                 android:layout_width="match_parent"
                 android:scaleType="centerInside"
                 android:src="@drawable/pk1"

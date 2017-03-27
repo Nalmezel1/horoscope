@@ -7,7 +7,7 @@
     <string name="dateDay">день</string>
 
     <string name="badHp">Присмотритесь к своему здоровью</string>
-    <string name="goodHp">Сегодня можете позволить себе лишний бокал</string>
+    <string name="goodHp">Сегодня Вы будете прекрасно себя чувствовать</string>
     <string name="badLuck">Удача не на высоте. Постарайтесь не рисковать</string>
     <string name="goodLuck">Сегодня вам сопутствует удача</string>
     <string name="badMoney">Не стоит сегодня тратиться</string>
@@ -24,17 +24,51 @@
     <string name="workTextView">Работа</string>
     <string name="loveTextView">Любовь</string>
 
-    <string-array name="planets_array">
-        <item>@string/badHp</item>
-        <item>@string/goodHp</item>
-        <item>@string/badLuck</item>
-        <item>@string/goodLuck</item>
-        <item>@string/badMoney</item>
-        <item>@string/goodMoney</item>
-        <item>@string/badWork</item>
-        <item>@string/goodWork</item>
-        <item>@string/badLove</item>
-        <item>@string/goodLove</item>
-    </string-array>
+
+            <string-array name="textPredictionHealth">
+                <item>Всё очень плохо</item>
+                <item>Вас ждут значительные проблемы со здоровьем</item>
+                <item>Возможны небольшие проблемы со здоровьем</item>
+                <item>Сегоднешний день пройдёт спокойно</item>
+                <item>Вы будите прекрасно себя чувствовать</item>
+                <item>Сегодня можите позволить себе лишний бокал</item>
+            </string-array>
+
+            <string-array name="textPredictionLuck">
+                <item>Удача на нуле</item>
+                <item>Сегодня неудачный день</item>
+                <item>Возможно небольшое невезение</item>
+                <item>Не ожидайте ничего неожиданного</item>
+                <item>Сегодня вам сопутствует удача</item>
+                <item>Сегодня крайне удачный день</item>
+            </string-array>
+
+            <string-array name="textPredictionMony">
+                <item>Денег нет, но Вы держитесь</item>
+                <item>сегодня вам предстоит крупно потратиться</item>
+                <item>Вас ждут непредвиденные траты</item>
+                <item>Возможно вы заработаете денег, немного, может быть</item>
+                <item>Ваши финансы ждёт небольшое пополнение</item>
+                <item>Вас ждёт уёма денег</item>
+            </string-array>
+
+            <string-array name="textPredictionWork">
+                <item>На работе всё очень плохо</item>
+                <item>На работе произойдёт что-то плохое</item>
+                <item>Небольшие неприятности на работе</item>
+                <item>На работе ничего нового</item>
+                <item>На работе произойдёт что-то хорошее</item>
+                <item>Самое время попросить повышения</item>
+            </string-array>
+
+            <string-array name="textPredictionLove">
+                <item>Сегодя вам будет трудно найти равновесие между голосом рассудка и своими чувствами.</item>
+                <item>Звёзды говорят вам пересмотреть свои отношения</item>
+                <item>Сегодня вам предстоит проявить изрядеую изобретательность</item>
+                <item>В личной жизни всё как обычно</item>
+                <item>Сегодня стоит выбраться на романтическое свидание </item>
+                <item>Сегодня Вы будите обладать особой притягательностью</item>
+            </string-array>
+
 
 </resources>
